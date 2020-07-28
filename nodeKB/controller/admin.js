@@ -2,8 +2,8 @@ var express = require('express');
 var router = express.Router();
 
 
-router.get('/', function(req, res){
-	res.send('Hello World');
+router.get('/', (req, res) => {
+  res.render('admin/index');
 });
 
 router.get('/AddEmployee', function(req, res){

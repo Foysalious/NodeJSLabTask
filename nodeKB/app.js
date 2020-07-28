@@ -3,7 +3,7 @@ var bodyParser 	= require('body-parser');
 var login 		= require('./controller/login');
 var employee 		= require('./controller/employee');
 var admin 		= require('./controller/admin');
-
+// App initialization
 var app 		= express();
 
 //config

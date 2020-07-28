@@ -1,9 +1,10 @@
 var express = require('express');
 var router = express.Router();
 
-router.get('/', function(req, res){
-	res.send('Hello World');
+router.get('/', (req, res) => {
+  res.render('employee/index');
 });
+
 
 router.get('/MyProfile', function(req, res){
 	res.send('Hello World');
