@@ -13,7 +13,7 @@ router.get('/MyProfile', function(req, res){
 });
 
 router.get('/UpdateProfile', function(req, res){
-	res.send('Hello World');
+	res.render('employee/updateProfile');
 });
 
 
